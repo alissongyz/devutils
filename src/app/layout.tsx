@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION", // Opcional: configurar no .env
+    google: "wv1OfFP8jhMyabw4kJffgUNF3sfT2QbdpBN2o5I-v6E",
   },
   alternates: {
     canonical: "https://devutils-swart.vercel.app",
