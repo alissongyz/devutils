@@ -238,7 +238,7 @@ export default function Home() {
                       "@type": "WebApplication",
                       "name": "DevUtils Pro",
                       "description": "Ferramentas utilitárias para desenvolvedores: Geradores de CPF, CNPJ, UUID e formatadores de texto.",
-                      "url": "https://devutils.pro",
+                      "url": "https://devutils-swart.vercel.app",
                       "applicationCategory": "DeveloperApplication",
                       "operatingSystem": "Web",
                       "author": {

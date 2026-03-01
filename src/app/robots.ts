@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://devutils.pro/sitemap.xml',
+    sitemap: 'https://devutils-swart.vercel.app/sitemap.xml',
   }
 }

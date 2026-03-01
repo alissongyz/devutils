@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://devutils.pro", // Ajustar se a URL oficial mudar
+    url: "https://devutils-swart.vercel.app", // URL oficial do projeto
     title: "DevUtils Pro | Geradores e Ferramentas Gratuitas",
     description: "Cansado de sites lentos e com anúncios? Use o DevUtils Pro para gerar CPFs, CNPJs e muito mais com uma interface premium.",
     siteName: "DevUtils Pro",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     google: "process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION", // Opcional: configurar no .env
   },
   alternates: {
-    canonical: "https://devutils.pro",
+    canonical: "https://devutils-swart.vercel.app",
   }
 };
 
