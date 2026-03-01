@@ -229,6 +229,25 @@ export default function Home() {
                 exit={{ opacity: 0, y: -20 }}
                 className="flex flex-col gap-12"
               >
+                {/* Structured Data para SEO */}
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "WebApplication",
+                      "name": "DevUtils Pro",
+                      "description": "Ferramentas utilitárias para desenvolvedores: Geradores de CPF, CNPJ, UUID e formatadores de texto.",
+                      "url": "https://devutils.pro",
+                      "applicationCategory": "DeveloperApplication",
+                      "operatingSystem": "Web",
+                      "author": {
+                        "@type": "Person",
+                        "name": "Alisson Arruda"
+                      }
+                    })
+                  }}
+                />
                 <header className="flex flex-col gap-4">
                   <div className="flex items-center gap-3">
                     <div className="p-2 bg-primary/10 rounded-lg text-primary">
